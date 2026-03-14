@@ -51,7 +51,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: 'Address',
-      value: '123 Print Avenue, Johannesburg, SA',
+      value: 'Empangeni, KwaZulu-Natal, South Africa',
       href: '#',
     },
   ];
@@ -187,13 +187,7 @@ const ContactSection = () => {
               </motion.a>
             ))}
 
-            {/* Map Placeholder */}
-            <div className="rounded-xl overflow-hidden h-48 bg-muted flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                <p className="text-muted-foreground text-sm">Interactive Map</p>
-              </div>
-            </div>
+
           </motion.div>
         </div>
       </div>
